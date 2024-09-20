@@ -1,0 +1,115 @@
+body {
+  /* background-color:red */
+}
+
+#navbar {
+  padding: 25px;
+  width: 200px;
+  text-align: end;
+  display: flex;
+  justify-content: space-between;
+  /* float: right; */
+}
+
+#gmail {
+  color: black;
+  cursor: pointer;
+  padding: 10px;
+}
+.w-100{
+  width: 100%;
+}
+.top-nav{
+  display: flex;
+  justify-content: end;
+}
+
+#gmail:hover {
+  text-decoration: underline;
+}
+
+#images {
+  color: black;
+  cursor: pointer;
+  padding: 10px;
+}
+
+#images:hover {
+  text-decoration: underline;
+}
+
+#flask {
+  padding: 10px;
+}
+#flask:hover {
+  background-color: grey;
+  border-radius: 20px;
+}
+
+#braille {
+  padding: 10px;
+}
+
+#braille:hover {
+  background-color: grey;
+  border-radius: 20px;
+}
+
+
+
+#main{
+  text-align:center;
+/* padding:150px; */
+}
+#search::-webkit-input-placeholder::before { 
+  content: ' ';
+  position: absolute;
+  top: 2px; /* adjust icon position */
+  left: 0px;
+  width: 14px; /* size of a single icon */
+  height: 14px;
+  background-image: url("/path/to/icons.png"); /* all icons in a single file */
+  background-repeat: no-repeat;
+  background-position: -48px 0px; /* position of the right icon */
+}
+
+
+#image{
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top:10px
+}
+
+#search{
+  border-radius:20px;
+  width:50%;
+  padding:20px;
+  border:1px solid gray;
+}
+
+#twoimages{
+  display:flex;
+  justify-content:center;
+  padding:10px
+}
+
+#youtube{
+  background-color:gray;
+  border-radius:80px;
+  width:80px;
+  height:80px;
+  align-content:center
+  
+}
+
+#cricinfo{
+  background-color:gray;
+  border-radius:80px;
+}
+
+
+
+
+
+
